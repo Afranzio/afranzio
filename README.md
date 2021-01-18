@@ -1,7 +1,9 @@
 ### Hi there 👋 This is Afranzio.. 
 ## Developer with seeking knowledge..
 
-**Afranzio/afranzio** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Afranzio** is a ✨ _special_ ✨ person who loves coding.
+
+**Explore His Profile 🤪**
 
 Here are some ideas to get you started:
 
