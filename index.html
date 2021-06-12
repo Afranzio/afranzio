@@ -1,586 +1,694 @@
-<!DOCTYPE html><html lang="en"><head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Afranzio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
-    <link rel="stylesheet" href="index.css">
-  <link rel="icon" href="https://avatars0.githubusercontent.com/u/61235427?v=4" type="image/png"></head>
+<!DOCTYPE html>
+<html lang="en">
 
-  <body>
-    <div id="loading">
-      <div id="spinner"></div>
-    </div>
-    <div id="profile">
-      <div id="profile_img" style="background: url(https://avatars0.githubusercontent.com/u/61235427?v=4) center;"></div>
-      <div id="username"><span style="display:block;">Afranzio</span><a href="https://github.com/Afranzio">@Afranzio</a></div>
-      <div id="userbio" style="display: block;">Full-Time Developer.
-Software Development.
-Devops.</div>
-      <div id="about">
-                <span style="display:block;"><i class="fas fa-users"></i> &nbsp; None</span>
-                <span style="display:none;"><i class="fas fa-envelope"></i> &nbsp; null</span>
-                <span style="display:block;"><i class="fas fa-link"></i> &nbsp; <a href="maniafranzio1234@gmail.com">maniafranzio1234@gmail.com</a></span>
-                <span style="display:block;"><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp; Chennai</span>
-                <span style="display:block;"><i class="fas fa-user-tie"></i> &nbsp;&nbsp; Available for hire</span>
-                <div class="socials">
-                <span style="display:none !important;"><a href="https://www.twitter.com/undefined" target="_blank" class="socials"><i class="fab fa-twitter"></i></a></span>
-                <span style="display:none !important;"><a href="https://www.dribbble.com/undefined" target="_blank" class="socials"><i class="fab fa-dribbble"></i></a></span>
-                <span style="display:none !important;"><a href="https://www.linkedin.com/in/undefined/" target="_blank" class="socials"><i class="fab fa-linkedin-in"></i></a></span>
-                <span style="display:none !important;"><a href="https://www.medium.com/@undefined/" target="_blank" class="socials"><i class="fab fa-medium-m"></i></a></span>
-                </div>
-                </div>
-    </div>
-    <div id="display">
-      <div id="work">
-        <h1>Work.</h1>
-        <div class="projects" id="work_section">
-                        <a href="https://github.com/Afranzio/Afranzio-Analiyst" target="_blank">
-                        <section>
-                            <div class="section_title">Afranzio-Analiyst</div>
-                            <div class="about_section">
-                            <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Python</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Afranzio/Scrappy" target="_blank">
-                        <section>
-                            <div class="section_title">Scrappy</div>
-                            <div class="about_section">
-                            <span style="display:block;">Here i webscrap the amazon mobile list and save those details in excel using pandas for all upto 5 pages</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Python</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Afranzio/Corona_Pandemic" target="_blank">
-                        <section>
-                            <div class="section_title">Corona_Pandemic</div>
-                            <div class="about_section">
-                            <span style="display:block;">CoronaPandemic</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Jupyter Notebook</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Afranzio/Webpage" target="_blank">
-                        <section>
-                            <div class="section_title">Webpage</div>
-                            <div class="about_section">
-                            <span style="display:block;">Web page is creates for my imaginary Tattoo Shop..</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Afranzio/corona_app" target="_blank">
-                        <section>
-                            <div class="section_title">corona_app</div>
-                            <div class="about_section">
-                            <span style="display:block;">Created a simple GUI Tkinter App by Python by restored in local location..</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Python</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Afranzio/Javascript-TodoList" target="_blank">
-                        <section>
-                            <div class="section_title">Javascript-TodoList</div>
-                            <div class="about_section">
-                            <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Afranzio/Qazi-Javascript" target="_blank">
-                        <section>
-                            <div class="section_title">Qazi-Javascript</div>
-                            <div class="about_section">
-                            <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Afranzio/CoronaGUI" target="_blank">
-                        <section>
-                            <div class="section_title">CoronaGUI</div>
-                            <div class="about_section">
-                            <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Python</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Afranzio/weather_reporter" target="_blank">
-                        <section>
-                            <div class="section_title">weather_reporter</div>
-                            <div class="about_section">
-                            <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Jupyter Notebook</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Afranzio/flipkart_mobile" target="_blank">
-                        <section>
-                            <div class="section_title">flipkart_mobile</div>
-                            <div class="about_section">
-                            <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Jupyter Notebook</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Afranzio/react_todo" target="_blank">
-                        <section>
-                            <div class="section_title">react_todo</div>
-                            <div class="about_section">
-                            <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Afranzio/worldometer.info-covid-19" target="_blank">
-                        <section>
-                            <div class="section_title">worldometer.info-covid-19</div>
-                            <div class="about_section">
-                            <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Jupyter Notebook</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Afranzio/React-Recipe-Cards" target="_blank">
-                        <section>
-                            <div class="section_title">React-Recipe-Cards</div>
-                            <div class="about_section">
-                            <span style="display:block;">Created with CodeSandbox</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Afranzio/Complete-React-Corona-Cards" target="_blank">
-                        <section>
-                            <div class="section_title">Complete-React-Corona-Cards</div>
-                            <div class="about_section">
-                            <span style="display:block;">Created with CodeSandbox</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Afranzio/portfolio" target="_blank">
-                        <section>
-                            <div class="section_title">portfolio</div>
-                            <div class="about_section">
-                            <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Afranzio/python-quizz" target="_blank">
-                        <section>
-                            <div class="section_title">python-quizz</div>
-                            <div class="about_section">
-                            <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Python</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Afranzio/nodeapp" target="_blank">
-                        <section>
-                            <div class="section_title">nodeapp</div>
-                            <div class="about_section">
-                            <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Afranzio/pyflask-mongo" target="_blank">
-                        <section>
-                            <div class="section_title">pyflask-mongo</div>
-                            <div class="about_section">
-                            <span style="display:block;">Created Flask Login And Store data in MongoDB-Atlas</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; CSS</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Afranzio/Telegram-Bot" target="_blank">
-                        <section>
-                            <div class="section_title">Telegram-Bot</div>
-                            <div class="about_section">
-                            <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Python</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Afranzio/Genex-Job-Portal" target="_blank">
-                        <section>
-                            <div class="section_title">Genex-Job-Portal</div>
-                            <div class="about_section">
-                            <span style="display:block;">Created with CodeSandbox</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Afranzio/React-Firebase-Quazi" target="_blank">
-                        <section>
-                            <div class="section_title">React-Firebase-Quazi</div>
-                            <div class="about_section">
-                            <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Afranzio/Instagram-Clone-Quazi" target="_blank">
-                        <section>
-                            <div class="section_title">Instagram-Clone-Quazi</div>
-                            <div class="about_section">
-                            <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Afranzio/React-Github-Developer" target="_blank">
-                        <section>
-                            <div class="section_title">React-Github-Developer</div>
-                            <div class="about_section">
-                            <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Afranzio/Pawn_Shop" target="_blank">
-                        <section>
-                            <div class="section_title">Pawn_Shop</div>
-                            <div class="about_section">
-                            <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Jupyter Notebook</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Afranzio/LambdaCDDemo" target="_blank">
-                        <section>
-                            <div class="section_title">LambdaCDDemo</div>
-                            <div class="about_section">
-                            <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Python</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Afranzio/Python-SEO-DS-Project" target="_blank">
-                        <section>
-                            <div class="section_title">Python-SEO-DS-Project</div>
-                            <div class="about_section">
-                            <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Python</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Afranzio/CFTGit" target="_blank">
-                        <section>
-                            <div class="section_title">CFTGit</div>
-                            <div class="about_section">
-                            <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Groovy</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Afranzio/GitAPILambda" target="_blank">
-                        <section>
-                            <div class="section_title">GitAPILambda</div>
-                            <div class="about_section">
-                            <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Afranzio/GitActions" target="_blank">
-                        <section>
-                            <div class="section_title">GitActions</div>
-                            <div class="about_section">
-                            <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Python</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Afranzio/Newtestrepo" target="_blank">
-                        <section>
-                            <div class="section_title">Newtestrepo</div>
-                            <div class="about_section">
-                            <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Afranzio/Check" target="_blank">
-                        <section>
-                            <div class="section_title">Check</div>
-                            <div class="about_section">
-                            <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Afranzio/Vorkinsta" target="_blank">
-                        <section>
-                            <div class="section_title">Vorkinsta</div>
-                            <div class="about_section">
-                            <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Afranzio/TutorLabs.com" target="_blank">
-                        <section>
-                            <div class="section_title">TutorLabs.com</div>
-                            <div class="about_section">
-                            <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Afranzio/odLed_template-online" target="_blank">
-                        <section>
-                            <div class="section_title">odLed_template-online</div>
-                            <div class="about_section">
-                            <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Afranzio/afranzio.github.io" target="_blank">
-                        <section>
-                            <div class="section_title">afranzio.github.io</div>
-                            <div class="about_section">
-                            <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Afranzio/tutorDjango" target="_blank">
-                        <section>
-                            <div class="section_title">tutorDjango</div>
-                            <div class="about_section">
-                            <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; CSS</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a></div>
-      </div>
-      <div id="forks" style="display:none;">
-        <h1>Forks.</h1>
-        <div class="projects" id="forks_section"></div>
-      </div>
-      <div id="blog_section">
-        <h1>Blog.</h1>
-        <div id="blogs"></div>
-      </div>
-      <div id="footer">
-        <a href="https://github.com/imfunniee" target="_blank">made on earth by a human</a>
-      </div>
-    </div>
-    <script type="text/javascript">
-      setTimeout(function() {
-        document.getElementById("loading").classList.add("animated");
-        document.getElementById("loading").classList.add("fadeOut");
-        setTimeout(function() {
-          document.getElementById("loading").classList.remove("animated");
-          document.getElementById("loading").classList.remove("fadeOut");
-          document.getElementById("loading").style.display = "none";
-        }, 800);
-      }, 1500);
-      $.getJSON("blog.json", function(blog) {
-        blog = blog || [];
-        if (blog.length == 0) {
-          return (document.getElementById("blog_section").style.display =
-            "none");
-        }
-        for (var i = 0; i < blog.length; i++) {
-          $("#blogs").append(`
-            <a href="./blog/${blog[i].url_title}/" target="_blank">
-                <section>
-                    <img src="./blog/${blog[i].url_title}/${blog[i].top_image}">
-                    <div class="blog_container">
-                        <div class="section_title">${blog[i].title}</div>
-                        <div class="about_section">
-                            ${blog[i].sub_title}
-                        </div>
-                    </div>
-                </section>
-            </a>
-            `);
-        }
-      }).fail(function() {
-        return (document.getElementById("blog_section").style.display = "none");
-      });
-    </script>
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5BB8W2X');</script>
+  <!-- End Google Tag Manager -->
+  <link rel="icon" type="image/png" href="/favicon.png"/>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <script>
-      const magicProjectsGrid = new MagicGrid({
-        container: "#work_section",
-        animate: false,
-        gutter: 30, // default gutter size
-        static: true,
-        useMin: false,
-        maxColumns: 2,
-        useTransform: true
-      });
+  <title>Personal Portfolio</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
 
-      const magicForksGrid = new MagicGrid({
-        container: "#forks_section",
-        animate: false,
-        gutter: 30, // default gutter size
-        static: true,
-        useMin: false,
-        maxColumns: 2,
-        useTransform: true
-      });
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-      $("document").ready(() => {
-        magicProjectsGrid.listen();
-        magicForksGrid.listen();
-      });
-    </script>
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169007209-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-169007209-3');
+  </script>
+
+
+
+  <!-- =======================================================
+  * Template Name: Personal - v2.1.0
+  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
   
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5BB8W2X"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <!-- ======= Header ======= -->
+  <header id="header" class="header-tops" style="background-image: url(assets/img/background/bg7.jpg); background-position: top;">
 
-</body></html>
+    <div class="container">
+
+      <h1><a href="index.html">Mani Afranzio</a></h1>
+      <h2 style="color:#fff">I'm <span class="typing" style="color:#12D640"></span></h2>
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="#header"> <span>Home</span></a></li>
+          <li><a href="#about"><span>About</span></a></li>
+          <li><a href="#education"> <span>Education</span></a></li>
+          <li><a href="#experience"> <span>Experience</span></a></li>
+<!--          <li><a href="#projects"> <span>Projects</span></a></li>-->
+          <li><a href="#portfolio"> <span>Projects</span></a></li>
+          <li><a href="#skills"> <span>Skills</span></a></li>
+          <li><a href="https://drive.google.com/file/d/12k5XDs59K3WFFo1aXBMI1_OViancBhDP/view?usp=sharing" target="_blank"> <span>Resume</span></a></li>
+          <!-- <li><a href="#links"> <span>Resume & Links</span></a></li> -->
+          <li><a href="#contacts"> <span>Contact</span></a></li>
+
+        </ul>
+      </nav><!-- .nav-menu -->
+
+      <div class="social-links">
+          <a href="https://www.linkedin.com/in/mani-afranzio-9ba168159/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://github.com/Afranzio?tab=repositories" target="_blank" class="github"><i class="bx bxl-github"></i></a>
+          <a href="mailto:afranzio@zohomail.in" target="_blank" class="google"><i class="bx bxl-google"></i></a>
+
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= About Section ======= -->
+  <section id="about" class="about">
+
+    <!-- ======= About Me ======= -->
+    <div class="about-me container">
+
+      <div class="section-title">
+        <h2>About</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4" data-aos="fade-right">
+          <img src="assets/img/me.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+          <p>Focused and enthusiastic developer with a keen interest in software development and artificial intelligence. By comprehensive exposure
+            to the underlying concepts and applying them vividly to various projects, my love for these domains came into being.
+            I am a passionate individual who thrives to build and apply algorithms to solve real-world industry problems.
+          </p>
+          <div class="row">
+            <div class="col-lg-6">
+              <ul>
+                <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> 16 December 2000</li>
+                <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> +91 99446 22435</li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <ul>
+                <li><i class="icofont-rounded-right"></i> <strong>City:</strong> Chennai, India</li>
+                <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> afranzio@zohomail.in</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- End About Me -->
+
+    <!-- ======= Interests ======= -->
+    <div class="interests container">
+
+      <div class="section-title">
+        <h2>Interests</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-4">
+          <div class="icon-box">
+            <i class="ri-global-line" style="color: #ffbb2c;"></i>
+            <h3>Web Development</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+          <div class="icon-box">
+            <i class="ri-database-2-line" style="color: #5578ff;"></i>
+            <h3>Software Development</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+          <div class="icon-box">
+            <i class="ri-android-line" style="color: #e80368;"></i>
+            <h3>Mobile App Development</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+          <div class="icon-box">
+            <i class="ri-reactjs-fill" style="color: #1c7d32;"></i>
+            <h3>PWA Development</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-code-s-slash-fill" style="color: #28a745;"></i>
+            <h3>Software Engineering</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-bar-chart-box-line" style="color: #f1081f;"></i>
+            <h3>Visualization</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-file-list-3-line" style="color: #47aeff;"></i>
+            <h3>Algorithms</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-amazon-line" style="color: #ffc107;"></i>
+            <h3>Amazon Web Services</h3>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- End Interests -->
+  </section><!-- End About Section -->
+
+
+
+  <!-- ======= Education Section ======= -->
+  <section id="education" class="services">
+    <div class="container">
+      <div class="section-title">
+        <h2>Education</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-12" data-aos="fade-up" style="display: inline-block;">
+
+
+            <div class="col-md-4 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100" style="padding:0px 0px;padding-bottom: 5px;display: inline-block;">
+              <img src="assets/img/education/Js.jpg" class="img-fluid" alt="" height="20px">
+              <!-- <h4 style="text-align:left;"><a href="https://www.asu.edu/" target="_blank" style="color:#12d640">Arizona State University</a><br> </h4> -->
+              <p style="text-align:left;color:#fff;padding: 5px 10px;"><em>BE in Computer Science</em></p>
+              <h5 style="text-align:left;padding: 0px 10px;">July 2020 - Present</h5>
+              <h6 style="text-align:left;color:#fff;padding: 0px 10px;">Relevant Coursework</h6>
+              <ul style="text-align:left;color:#fff;">
+                <li>Distributed Database Systems</li>
+                <li>Cloud Computing</li>
+                <li>Foundation Of Algorithms</li>
+              </ul>
+            </div>
+            <div class="col-md-4 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100" style="padding:0px 0px;padding-bottom: 5px;display: inline-block;">
+              <img src="assets/img/education/excel.png" class="img-fluid" alt="">
+              <!-- <h4 style="text-align:left;"><a href="https://ahduni.edu.in/" target="_blank" style="color:#12d640">Ahmedabad University</a><br> </h4> -->
+              <p style="text-align:left;color:#fff;padding: 5px 10px;"><em>Diploma. in Electronics and Communication Technology</em></p>
+              <h5 style="text-align:left;padding: 0px 10px;">July 2016 - May 2019</h5>
+              <h6 style="text-align:left;color:#fff;padding: 0px 10px;">Relevant Coursework</h6>
+              <ul style="text-align:left;color:#fff;">
+                <!-- <li>Data Structures &amp; Algorithms</li> -->
+                <li>Foundation of data structures</li>
+                <li>Operating Systems</li>
+                <!-- <li>Operating Systems</li> -->
+                <!-- <li>Algorithms &amp; Optimization for Big Data</li> -->
+                <!-- <li>Machine Learning</li> -->
+                <!-- <li>Computer Vision</li> -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <div class="portfolio">
+    <div class="container">
+      <div class="section-title">
+        <h2>Online Certification</h2>
+      </div>
+
+      <div class="row portfolio-container" style="position: relative; height: 437.75px;">
+
+         <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 0px; top: 0px;">
+          <div class="portfolio-wrap">
+            <img src="assets/img/certification/NIIT.png" class="img-fluid" alt="" style="border: 15px solid #fff;">
+            <div class="portfolio-info">
+              <h4>Machine Learning</h4>
+              <div class="portfolio-links">
+                <a href="https://www.coursera.org/account/accomplishments/certificate/2BTJ636Q2E93?utm_medium=certificate&amp;utm_source=link&amp;utm_campaign=copybutton_certificate/" target="_blank" title="Certificate"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+           </div>
+          </div>
+
+        <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 370px; top: 0px;">
+          <div class="portfolio-wrap">
+            <img src="assets/img/certification/stanford.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Algorithms-Design and Analysis</h4>
+              <div class="portfolio-links">
+                <a href="https://www.coursera.org/account/accomplishments/certificate/6THRQXYE9EHZ?utm_medium=certificate&amp;utm_source=link&amp;utm_campaign=copybutton_certificate" target="_blank" title="Certificate"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 740px; top: 0px;">
+          <div class="portfolio-wrap">
+            <img src="assets/img/certification/ucsd.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Algorithmic Toolbox</h4>
+              <div class="portfolio-links">
+                <a href="https://coursera.org/share/98bbfb990484fac370d5e5ed14334ea4" target="_blank" title="Certificate"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-project" style="position: absolute; left: 0px; top: 218.875px;">
+          <div class="portfolio-wrap">
+            <img src="assets/img/certification/ibm.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Deep Learning with Tensorflow</h4>
+              <div class="portfolio-links">
+                <a href="https://drive.google.com/file/d/1FSwPt19EzY_tpvqkE6igtLf3gccKcssC/view?usp=sharing" target="_blank" title="Certificate"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-project" style="position: absolute; left: 370px; top: 218.875px;">
+          <div class="portfolio-wrap">
+            <img src="assets/img/certification/ibm.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Machine Learning with Python</h4>
+              <div class="portfolio-links">
+                <a href="https://drive.google.com/file/d/1gimySw_NPzCJ54dqZ2j2wYyz-JDOg-S0/view?usp=sharing" target="_blank" title="Certificate"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-project" style="position: absolute; left: 740px; top: 218.875px;">
+          <div class="portfolio-wrap">
+            <img src="assets/img/certification/dai.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Neural Networks and Deep Learning</h4>
+              <div class="portfolio-links">
+                <a href="https://www.coursera.org/account/accomplishments/certificate/ELXZ6FE2BU7X?utm_medium=certificate&amp;utm_source=link&amp;utm_campaign=copybutton_certificate/" target="_blank" title="Certificate"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+      </div>
+    </div>
+    </div>
+
+  </section>
+  <!-- End Education Section -->
+
+
+
+  <!-- Start Experience Section -->
+
+  <section id="experience" class="services">
+    <div class="container">
+      <div class="section-title">
+        <h2>Experience</h2>
+      </div>
+      <div class="row">
+          <div class="col-lg-12" data-aos="fade-up">
+              <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
+                <h4 style="text-align:left;"><a href="" style="color:#12d640">Genex Corporation Service Pvt. Ltd.</a><br> </h4>
+                <h5 style="text-align:left;">April 2020 - Present</h5>
+                <p style="text-align:left;color:#fff"><em>Intern, Hyderabad, India </em></p>
+                <ul style="text-align:left;">
+                  <li>Responsible for the design, development, and testing of web-based backend applications to facilitate scalable front-end user interactions through an API.</li>
+                  <li>Cleaned and processed data into deliverables within specific formats with python libraries.</li>
+                  <li>Got exposure of working with backend framework such as Django and Flask.</li>
+                </ul>
+              </div>
+              <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
+                <h4 style="text-align:left;"><a href="https://www.infosearchbpo.com/" target="_blank" style="color:#12d640">Inforsearch BPO Pvt.LTD </a><br> </h4>
+                <h5 style="text-align:left;">December 2019 - March 2020</h5>
+                <p style="text-align:left;color:#fff"><em>Non-Voice, Chennai, India </em></p>
+                <ul style="text-align:left;">
+                  <li>Creating data points for detection and classification problem using deep learning algorithms.</li>
+                  <!-- <li>Designed pipeline of the whole project to get it incorporated in the product of the company. Created visualization tool for the project which gives the detailed outcome of error analysis.</li> -->
+                  <li>Implemention of AI and improved processing speed.</li>
+                </ul>
+              </div>
+              <!-- <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
+                <h4 style="text-align:left;"><a href="https://www.sac.gov.in/Vyom/index.jsp" target="_blank" style="color:#12d640">Space Application Centre, ISRO</a><br> </h4>
+                <h5 style="text-align:left;">Jan 2018 - May 2018</h5>
+                <p style="text-align:left;color:#fff"><em>Research Intern, Ahmedabad, India</em></p>
+                <ul style="text-align:left;">
+                  <li>Worked on the noise removal from satellite image using image processing and computer vision techniques.</li>
+                  <li>Implemented architecture for detecting objects in high resolution satellite image using deep learning algorithms.</li>
+                </ul>
+            </div> -->
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- End Experience Section -->
+
+
+
+  <!-- Start Project Section -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Projects</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-center">
+          <ul id="portfolio-flters">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">Web-App</li>
+            <li data-filter=".filter-python">Python</li>
+            <li data-filter=".filter-mobo">Mobile Application</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row portfolio-container">
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <center><h4>React Corona Cards</h4></center>
+          <div class="portfolio-wrap">
+            <img src="assets/img/project/musicplayer.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              
+              <div class="portfolio-links">
+                <a href="projects/CoronaCards.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <center><h4>Restaurant Recipes Card</h4></center>
+          <div class="portfolio-wrap">
+            <img src="assets/img/project/recommender.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              
+              <div class="portfolio-links">
+                <a href="projects/RecipesCard.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <center><h4>Firebase To-Do App</h4></center>
+          <div class="portfolio-wrap">
+            <img src="assets/img/project/todo.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <div class="portfolio-links">
+                <a href="projects/FirebaseToDo.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-python">
+          <br>
+          <center><h4>Corona GUI</h4></center>
+          <div class="portfolio-wrap">
+            <img src="assets/img/project/ml.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <div class="portfolio-links">
+                <a href="projects/CoronaGUI.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-python">
+          <br>
+          <center><h4>Timesheet</h4></center>
+          <div class="portfolio-wrap">
+            <img src="assets/img/project/timesheet.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <div class="portfolio-links">
+                <a href="projects/Timesheet.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <br>
+          <center><h4>Instagram Clone</h4></center>
+          <div class="portfolio-wrap">
+            <img src="assets/img/project/vdg.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <div class="portfolio-links">
+                <a href="projects/InstagramClone.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-python">
+          <br>
+          <center><h4>Python Quiz</h4></center>
+          <div class="portfolio-wrap">
+            <img src="assets/img/project/resume.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Resume Section Classifier</h4>
+              <div class="portfolio-links">
+                <a href="projects/PythonQuiz.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-python">
+          <br>
+          <center><h4>Analytics and Visualization</h4></center>
+          <div class="portfolio-wrap">
+            <img src="assets/img/project/Analytics.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <div class="portfolio-links">
+                <a href="projects/AV.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-mobo">
+          <br>
+          <center><h4>React Native Development</h4></center>
+          <div class="portfolio-wrap">
+            <img src="assets/img/project/gan.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <div class="portfolio-links">
+                <a href="projects/RNDevelopment.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-mobo">
+          <br>
+          <center><h4>React Ionic PWA</h4></center>
+          <div class="portfolio-wrap">
+            <img src="assets/img/project/blog.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <div class="portfolio-links">
+                <a href="projects/ReactIonicPWA.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- End Project Section -->
+
+
+
+  <!-- Start Skills Section -->
+
+  <section id="skills" class="services">
+    <div class="container">
+      <div class="section-title">
+        <h2>Skills</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-12" data-aos="fade-up">
+          <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100" style="background:#fff">
+            <h4 style="text-align:left;color:#09203a">Languages and Databases</h4>
+                <p style="text-align:left;">
+                  <img src="https://www.vectorlogo.zone/logos/python/python-horizontal.svg" alt="vectorlogo.zone" height="50" width="150">
+                  <img src="https://www.vectorlogo.zone/logos/javascript/javascript-horizontal.svg" alt="vectorlogo.zone" height="50" width="120">
+                  <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg" alt="vectorlogo.zone">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="upload.wikimedia.org" height="60" width="90">
+                  <img src="https://www.vectorlogo.zone/logos/mysql/mysql-horizontal.svg" alt="vectorlogo.zone" height="70" width="130">
+                  <img src="https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg" alt="vectorlogo.zone" height="50" width="120">
+
+                </p>
+            </div>
+            <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="lefade-up" data-aos-delay="100" style="background:#fff">
+              <h4 style="text-align:left;color:#09203a">Frameworks</h4>
+                <p style="text-align:left;">
+                  <img src="https://www.vectorlogo.zone/logos/djangoproject/djangoproject-ar21.svg" alt="vectorlogo.zone">
+                  <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg" alt="vectorlogo.zone">
+                  <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-ar21.svg" alt="vectorlogo.zone">
+                  <img src="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-ar21.svg" alt="vectorlogo.zone">
+                  <!-- <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-ar21.svg" alt="vectorlogo.zone">
+                  <img src="https://www.vectorlogo.zone/logos/opencv/opencv-ar21.svg" alt="vectorlogo.zone">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="upload.wikimedia.org" width="90" height="70"> -->
+              </p>
+          </div>
+          <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="lefade-up" data-aos-delay="100" style="background:#fff">
+              <h4 style="text-align:left;color:#09203a">Tools</h4>
+                <p style="text-align:left;">
+                  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg" alt="vectorlogo.zone">
+                  <img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-ar21.svg" alt="vectorlogo.zone">
+                  <img src="https://www.vectorlogo.zone/logos/heroku/heroku-ar21.svg" alt="vectorlogo.zone">
+                  <img src="https://www.vectorlogo.zone/logos/jupyter/jupyter-ar21.svg" alt="vectorlogo.zone">
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- End Skills Section -->
+
+
+
+
+  <!-- Start Links section -->
+  <section id="links" class="services">
+    <div class="container">
+      <div class="section-title">
+        <h2>Resume & Links</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-3 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
+          <a href="https://drive.google.com/file/d/12k5XDs59K3WFFo1aXBMI1_OViancBhDP/view?usp=sharing" target="_blank"><div class="icon"><i class="icofont-page"></i></div></a>
+          <h4 class="title"><a href="https://drive.google.com/file/d/12k5XDs59K3WFFo1aXBMI1_OViancBhDP/view?usp=sharing" target="_blank">Resume</a></h4>
+          <p class="description" style="color:#fff;">The link contains downloadable resume</p>
+        </div>
+        <!-- <div class="col-md-3 mt-4 mt-md-0 icon-box" data-aos="fade-up">
+          <a href="https://github.com/rajaprerak/LeetCode_Problems" target="_blank"><div class="icon"><i class="icofont-link"></i></div></a>
+          <h4 class="title"><a href="https://github.com/rajaprerak/LeetCode_Problems" target="_blank">LeetCode Repository</a></h4>
+          <p class="description" style="color:#fff;"> The github repository contains leetcode problems solution in python.</p>
+        </div> -->
+        <!-- <div class="col-md-3 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
+          <a href="https://techingenious.herokuapp.com/" target="_blank"><div class="icon"><i class="icofont-page"></i></div></a>
+          <h4 class="title"><a href="https://techingenious.herokuapp.com/" target="_blank">Blog</a></h4>
+          <p class="description" style="color:#fff;">Blog containing articles on AI, coding, development</p>
+        </div> -->
+      </div>
+    </div>
+  </section> <!--End Links Section -->
+
+
+  <!-- Start Contact Section -->
+
+  <section id="contacts" class="contact">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Contact</h2>
+      </div>
+
+      <div class="row mt-2">
+
+        <div class="col-md-6 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-map"></i>
+            <h3>My Address</h3>
+            <p>No: 120, Katchur</p>
+            <p>Seethanjeri</p>
+            <p>Uthukottai, Tiruvallur 602026</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-share-alt"></i>
+            <h3>Social Profiles</h3>
+            <div class="social-links">
+              <a href="https://www.linkedin.com/in/mani-afranzio-9ba168159/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              <a href="https://github.com/Afranzio?tab=repositories" target="_blank" class="github"><i class="bx bxl-github"></i></a>
+              <a href="mailto:afranzio@zohomail.in" target="_blank" class="google"><i class="bx bxl-google"></i></a>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 mt-4 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-envelope"></i>
+            <h3>Email</h3>
+            <p>afranzio@zohomail.in</p>
+            <!-- <p>pkraja@asu.edu</p> -->
+          </div>
+        </div>
+        <div class="col-md-6 mt-4 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-phone-call"></i>
+            <h3>Contact</h3>
+            <p>+91 99446 22435</p>
+          </div>
+        </div>
+      </div>
+      <!-- <div id="sfczmlqxr5caww28rswrt8849ghbekgnh3j" ></div><script type="text/javascript" src="https://counter1.stat.ovh/private/counter.js?c=zmlqxr5caww28rswrt8849ghbekgnh3j&down=async" async></script><noscript><a href="https://www.freecounterstat.com" title="free web counter"><img src="https://counter1.stat.ovh/private/freecounterstat.php?c=zmlqxr5caww28rswrt8849ghbekgnh3j" border="0" title="free web counter" alt="free web counter" style="visibility: none;"></a></noscript> -->
+    </div>
+  </section>
+
+  <!-- End Contact Section -->
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script type="text/javascript">
+    var typed = new Typed('.typing',{
+      strings: ["Coder", "Web Developer", "Full Stack Developer"],
+      loop: true,
+      typeSpeed: 65,
+      backSpeed: 65
+    });
+  </script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
